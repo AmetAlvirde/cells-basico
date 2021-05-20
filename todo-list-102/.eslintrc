@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["plugin:lit/recommended", "eslint:all", "prettier", "prettier/babel"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "classes": true
+    }
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "no-console": "warn",
+    "new-cap": "warn",
+    "sort-keys": "off",
+    "sort-vars": "off",
+    "sort-imports": "off",
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    "id-length": [
+      2,
+      {
+        "min": 3,
+        "max": 25,
+        "properties": "never",
+        "exceptions":["_", "e", "is", "ev", "id", "R"]
+      }
+    ],
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true  }],
+    "one-var": ["error", { var: "always", let: "never", const: "never" }],
+    "multiline-comment-style": "off",
+    "no-ternary": "off",
+    "capitalized-comments": "off",
+    "max-lines-per-function": "off",
+    "max-statements": "off",
+    "callback-return": "warn",
+    "no-magic-numbers": "warn",
+    "lit/attribute-value-entities": "off"
+  }
+}
+

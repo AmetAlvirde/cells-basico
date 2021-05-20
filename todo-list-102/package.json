@@ -1,0 +1,18 @@
+{
+  "name": "todo-list-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material/mwc-button": "^0.16.1",
+    "@material/mwc-list": "^0.16.1",
+    "@material/mwc-textfield": "^0.16.1",
+    "@webcomponents/webcomponentsjs": "^2.4.3",
+    "lit-element": "^2.3.1"
+  }
+}
